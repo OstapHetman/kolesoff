@@ -51,4 +51,97 @@ footer {
       margin: 0;
     }
   }
+
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .brand {
+      img {
+        max-width: 225px;
+      }
+    }
+    .phones {
+      .numbers {
+        a {
+          font-size: 18px;
+        }
+      }
+    }
+    .location {
+      margin-top: 25px;
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 576px) and (max-width: 767px) {
+    .brand {
+      img {
+        max-width: 150px;
+      }
+    }
+    .phones {
+      .icon {
+        img {
+          width: 30px;
+          height: 30px;
+        }
+      }
+      .numbers {
+        a {
+          font-size: 14px;
+        }
+      }
+    }
+    .location {
+      margin-top: 25px;
+      .icon {
+        img {
+          width: 30px;
+          height: 30px;
+        }
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 575px) {
+    padding-bottom: 25px;
+    .brand {
+      text-align: center;
+      img {
+        max-width: 150px;
+      }
+    }
+    .phones {
+      margin-top: 15px;
+      justify-content: center;
+      .icon {
+        img {
+          width: 30px;
+          height: 30px;
+        }
+      }
+      .numbers {
+        a {
+          font-size: 14px;
+        }
+      }
+    }
+    .location {
+      margin-top: 15px;
+      justify-content: center;
+      .icon {
+        img {
+          width: 30px;
+          height: 30px;
+        }
+      }
+      p {
+        text-align: center;
+        font-size: 12px;
+      }
+    }
+  }
 }
