@@ -44,6 +44,13 @@ header {
         #ffcb0b 50%,
         rgba(241, 241, 241, 0) 100%
       );
+      position: relative;
+      &:after {
+        position: absolute;
+        content: url("assets/images/button-icon.png");
+        right: 35px;
+        top: 24px;
+      }
 
       // Text
       font-family: "MuseoSans";
