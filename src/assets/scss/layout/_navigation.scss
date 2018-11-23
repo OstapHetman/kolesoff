@@ -1,0 +1,80 @@
+nav.navbar {
+  padding-top: 40px;
+  .navbar-brand {
+    display: flex;
+    align-items: flex-end;
+    img {
+      max-width: 253px;
+      width: 100%;
+    }
+    p {
+      font-family: "LatoLight";
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 25px;
+      letter-spacing: -0.8px;
+      color: #000;
+      position: relative;
+      margin-left: 25px;
+      &:before {
+        content: "";
+        position: absolute;
+        left: -12.5px;
+        top: 8px;
+        width: 2px;
+        height: 38px;
+        background-color: #ffcb0b;
+      }
+    }
+  }
+  .navbar-nav {
+    .phones {
+      display: flex;
+      align-items: center;
+      &__icon {
+        img {
+          width: 40px;
+          height: 40px;
+        }
+        padding-right: 10px;
+      }
+      &__numbers {
+        display: flex;
+        flex-direction: column;
+        a {
+          font-family: "LatoRegular";
+          font-size: 20px;
+          font-weight: bold;
+          color: #000;
+          transition: all 0.5s ease;
+          &:hover {
+            text-decoration: unset;
+            color: #fbd74d;
+          }
+        }
+      }
+    }
+    .adress {
+      display: flex;
+      align-items: center;
+      margin-top: 25px;
+      &__icon {
+        padding-right: 10px;
+        img {
+          width: 40px;
+          height: 40px;
+        }
+      }
+      &__adress {
+        p {
+          font-family: "LatoLight";
+          font-size: 15px;
+          font-weight: 300;
+          color: #000;
+          letter-spacing: 1.2px;
+          margin: 0;
+        }
+      }
+    }
+  }
+}

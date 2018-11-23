@@ -1,0 +1,38 @@
+#slider {
+  margin-top: 125px;
+  margin-bottom: 125px;
+  h2 {
+    font-family: "MuseoSans";
+    font-size: 41px;
+    font-weight: bold;
+    letter-spacing: 3.28px;
+    line-height: 60px;
+    color: #000;
+    margin-bottom: 40px;
+  }
+  #partnersSlider {
+    .carousel-item {
+      align-self: center;
+      div {
+        max-width: 85%;
+        img {
+          margin: auto;
+          max-width: 100%;
+        }
+      }
+    }
+    a {
+      opacity: 1;
+      transition: opacity 0.7s ease;
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+    .carousel-control-next {
+      justify-content: flex-end;
+    }
+    .carousel-control-prev {
+      justify-content: flex-start;
+    }
+  }
+}

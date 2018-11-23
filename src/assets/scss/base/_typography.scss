@@ -1,5 +1,15 @@
 // Import Fonts
 @font-face {
-  font-family: "FontName";
-  src: url("../assets/fonts/FontName.ttf") format("truetype");
+  font-family: "LatoLight";
+  src: url("assets/fonts/LatoLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "LatoRegular";
+  src: url("assets/fonts/LatoRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MuseoSans";
+  src: url("assets/fonts/MuseoSansBlack.ttf") format("truetype");
 }
