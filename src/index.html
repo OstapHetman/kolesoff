@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Project Template</title>
+    <title>KOLESOFF</title>
     <meta
       name="description"
       content="This is a meta description sample. We can add up to 160 characters."
@@ -18,11 +18,203 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- START SECTION: New Section -->
+    <!-- Start Navigation -->
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="assets/images/brand.png" alt="Brand" />
+        <p class="mb-0">
+          Качественные шины <br />
+          от лучших производителей
+        </p>
+      </a>
+      <div class="navbar-nav">
+        <div class="phones">
+          <div class="phones__icon">
+            <img src="assets/images/phone-icon.png" alt="Icon" />
+          </div>
+          <div class="phones__numbers">
+            <a href="tel:+38 (097) 948-17-77 ">+38 (097) 948-17-77</a>
+            <a href="tel: +38 (066) 948-17-77">+38 (066) 948-17-77</a>
+          </div>
+        </div>
+        <div class="adress">
+          <div class="adress__icon">
+            <img src="assets/images/geo-icon.png" alt="Icon" />
+          </div>
+          <div class="adress__adress">
+            <p>г. Харьков, п. Песочин,</p>
+            <p>пл. Ю. Кононенко,1, ТЦ "Лоск",</p>
+            <p>основная площадка, магазин «Marketshina»</p>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navigation -->
 
-    <section class="container"><h2 class="text-center">YO-YO-YO</h2></section>
+    <!-- START Header -->
+    <header class="container">
+      <!-- Main Text -->
+      <div class="row">
+        <div class="mx-auto col-md-9 col-lg-9 col-xl-9">
+          <h2 class="text-center">
+            Пройдите тест всего за 1 минуту и
+            <span class="primary-text"
+              >узнайте стоимость шин на Ваш автомобиль</span
+            >
+            прямо сейчас!
+          </h2>
+        </div>
+      </div>
+      <!-- Features -->
+      <div class="row">
+        <!-- Start Feature Item -->
+        <div class="col-md-4 col-lg-4 col-xl-4 feature text-center">
+          <div class="feature__icon">
+            <img src="assets/images/features-1.png" alt="Feature Icon" />
+          </div>
+          <div class="feature__text">
+            <p class="mb-0">Быстрая доставка в срок, по всей Украине!</p>
+          </div>
+        </div>
+        <!-- End Feature Item -->
 
-    <!-- END SECTION: New Section -->
+        <!-- Start Feature Item -->
+        <div class="col-md-4 col-lg-4 col-xl-4 feature text-center">
+          <div class="feature__icon">
+            <img src="assets/images/features-2.png" alt="Feature Icon" />
+          </div>
+          <div class="feature__text">
+            <p class="mb-0">Для клиентов действуют скидки!</p>
+          </div>
+        </div>
+        <!-- End Feature Item -->
+
+        <!-- Start Feature Item -->
+        <div class="col-md-4 col-lg-4 col-xl-4 feature text-center">
+          <div class="feature__icon">
+            <img src="assets/images/features-3.png" alt="Feature Icon" />
+          </div>
+          <div class="feature__text">
+            <p class="mb-0">В продаже резина, не старше 36 месяцев!</p>
+          </div>
+        </div>
+        <!-- End Feature Item -->
+      </div>
+      <!-- Main Button -->
+      <div class="row">
+        <div class="mx-auto col-md-6 col-lg-6 col-xl-6">
+          <button class="btn d-block mx-auto">
+            Подобрать шины прямо сейчас <br />
+            <span class="secondary-text">
+              + получите гарантированный подарок за пройденный тест
+            </span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- END Header -->
+
+    <!-- Start Section: Slider -->
+    <section class="container" id="slider">
+      <div class="row"><h2>Шины ведущих производителей:</h2></div>
+      <div class="row">
+        <!-- Start Slider -->
+        <div
+          id="partnersSlider"
+          class="carousel slide col-12"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner carousel-partner-inner row">
+            <div
+              class="carousel-item carousel-partners-item active col-md-4 col-lg-4 partnersSliderItem"
+            >
+              <div class="mx-auto">
+                <img
+                  class="d-block w-100"
+                  src="assets/images/slide-1.png"
+                  alt="First slide"
+                />
+              </div>
+            </div>
+
+            <div
+              class="carousel-item carousel-partners-item active col-md-4 col-lg-4 partnersSliderItem"
+            >
+              <div class="mx-auto">
+                <img
+                  class="d-block w-100"
+                  src="assets/images/slide-2.png"
+                  alt="First slide"
+                />
+              </div>
+            </div>
+
+            <div
+              class="carousel-item carousel-partners-item active col-md-4 col-lg-4 partnersSliderItem"
+            >
+              <div class="mx-auto">
+                <img
+                  class="d-block w-100"
+                  src="assets/images/slide-3.png"
+                  alt="First slide"
+                />
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#partnersSlider"
+            role="button"
+            data-slide="prev"
+          >
+            <img src="assets/images/prev-arrow.png" alt="Prev Button" />
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#partnersSlider"
+            role="button"
+            data-slide="next"
+          >
+            <img src="assets/images/next-arrow.png" alt="Next Button" />
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <!-- End Slider -->
+      </div>
+    </section>
+    <!-- End Section: Slider -->
+
+    <!-- Start Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-xl-3 brand">
+            <img src="assets/images/brand.png" alt="" />
+          </div>
+          <div class="col-lg-4 col-xl-4 phones">
+            <div class="icon">
+              <img src="assets/images/phone-icon.png" alt="Icon" />
+            </div>
+            <div class="numbers">
+              <a href="tel:+38 (097) 948-17-77 ">+38 (097) 948-17-77</a>
+              <a href="tel:+38 (066) 948-17-77 ">+38 (066) 948-17-77</a>
+            </div>
+          </div>
+          <div class="col-lg-5 col-xl-5 location">
+            <div class="icon">
+              <img src="assets/images/geo-icon.png" alt="icon" />
+            </div>
+            <div class="adress">
+              <p>г. Харьков, п. Песочин,</p>
+              <p>пл. Ю. Кононенко,1, ТЦ "Лоск",</p>
+              <p>основная площадка, магазин «Marketshina»</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
 
     <!-- Import Scripts -->
     <script src="assets/js/jquery-3.3.1.min.js"></script>
